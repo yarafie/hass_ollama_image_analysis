@@ -3,19 +3,20 @@
   "name": "Ollama (local AI models) image analysis",
   "version": "0.1.3",
   "codeowners": [
-    "@the-smart-home-maker"
+    "@the-smart-home-maker",
+    "@yarafie"
   ],
   "config_flow": true,
   "single_config_entry": true,
   "dependencies": [],
-  "documentation": "https://github.com/the-smart-home-maker/hass_ollama_image_analysis",
-  "issue_tracker": "https://github.com/the-smart-home-maker/hass_ollama_image_analysis/issues",
+  "documentation": "https://github.com/yarafie/hass_ollama_image_analysis",
+  "issue_tracker": "https://github.com/yarafie/hass_ollama_image_analysis/issues",
   "homekit": {},
   "iot_class": "local_polling",
   "integration_type": "service",
   "requirements": [
-    "ollama==0.4.7",
-    "pybase64==1.4.0",
+    "ollama>=0.7.1,==0.7.*",
+    "pybase64>=1.4.0,==1.4.*",
     "aiofiles"
   ],
   "ssdp": [],
