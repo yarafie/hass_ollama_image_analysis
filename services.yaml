@@ -10,7 +10,7 @@ ollama_image_analysis:
       selector:
         text:
           multiline: true
-    image_path:
+    image_paths:
       description: This should be the paths or a direct urls to a snapshot images taken from your camera which shall be analyzed.
       example: 
         - /x/y/camera_image.jpg 
